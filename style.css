@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+/* BANNER */
+.banner {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* FOOD MENU */
+.food-menu {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: orange;
+  color: white;
+  text-decoration: none;
+}
+
+/* PRODUCT PAGE */
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.product img {
+  width: 250px;
+}
+
+.info {
+  max-width: 400px;
+}
+
+.price {
+  color: red;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
